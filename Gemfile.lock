@@ -101,6 +101,7 @@ GEM
       factory_bot (~> 6.2.0)
       railties (>= 5.0.0)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -260,6 +261,8 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2023.3)
+      tzinfo (>= 1.0.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.2.0)
@@ -276,6 +279,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw-ucrt
 
 DEPENDENCIES
   awesome_print (~> 1.9)
@@ -301,6 +305,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.1)
   sqlite3 (~> 1.4)
   turbolinks (~> 5.2.1)
+  tzinfo-data
   uglifier (~> 4.2.0)
   web-console (>= 4.2)
   webrick (~> 1.7)

@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.11'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1'
+gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # AWS S3
 gem 'aws-sdk-s3', '~> 1.114'
